@@ -219,7 +219,7 @@ class MusicLibraryController
     x = x.to_i
     
     if x > 0 && x < 6 
-      chosen = self.alpha_songs
+      chosen = alpha_songs
       #alpha_songs
       chosen = chosen[x]
       # chosen = @finalSongArray[x]
