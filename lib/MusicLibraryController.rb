@@ -221,7 +221,7 @@ class MusicLibraryController
     if x > 0 && x < 6 
       chosen = alpha_songs
       #alpha_songs
-      chosen = chosen[x]
+      chosen = chosen[x - 1]
       # chosen = @finalSongArray[x]
        chosen = chosen.split(" - ")
        artist = chosen[0]
